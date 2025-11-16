@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ccwc"
+version = "0.1.0"
+description = "A simple custom wc CLI tool."
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+ccwc = "ccwc.cli:main"
+
+[[project.authors]]
+name = "Paul Adegbiran-Ayinoluwa"
+email = "adegbiranayinoluwa.paul@yahoo.com"
